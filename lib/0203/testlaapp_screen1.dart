@@ -2,6 +2,9 @@
 https://dribbble.com/shots/10196092-Tesla-Smart-App
 */
 import 'package:flutter/material.dart';
+import 'package:flutter_march/0203/tesla_data.dart';
+import 'package:flutter_march/0203/testlaapp_screen2.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class TeslaSmartAppSreen1 extends StatefulWidget {
   @override
@@ -96,7 +99,7 @@ class _TeslaSmartAppSreen1State extends State<TeslaSmartAppSreen1> {
 
                   //Tesla model X
                   Text(
-                    "Model X",
+                    testLas.modelname,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 40.0,
@@ -109,7 +112,7 @@ class _TeslaSmartAppSreen1State extends State<TeslaSmartAppSreen1> {
                     children: <Widget>[
                       Center(
                         child: Text(
-                          "297",
+                          "${testLas.kilometter}",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 120.0,
@@ -153,7 +156,13 @@ class _TeslaSmartAppSreen1State extends State<TeslaSmartAppSreen1> {
                     // color: Colors.white,
                     child: Center(
                       child: InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          setState(() {
+                            Navigator.push(context,MaterialPageRoute(
+                              builder: (context) => TeslaSmartAppSreen2()
+                            ));
+                          });
+                        },
                         child: Container(
                           width: 100.0,
                           decoration: BoxDecoration(
@@ -164,8 +173,8 @@ class _TeslaSmartAppSreen1State extends State<TeslaSmartAppSreen1> {
 
                           child: Center(
                               child: Icon(
-                            Icons.lock_open,
-                            size: 34.0,
+                            FontAwesomeIcons.fingerprint,
+                            size: 36.0,
                             color: Colors.white,
                           )),
                           // color: Colors.white,
@@ -176,12 +185,12 @@ class _TeslaSmartAppSreen1State extends State<TeslaSmartAppSreen1> {
 
                   //Tap to open the car
                   Text(
-                    "A/C is turned on",
+                    "Tap to onpen the car",
                     style: TextStyle(
                       color: textColor,
-                      fontSize: 16.0,
+                      fontSize: 14.0,
                       // letterSpacing: 1.0,
-                      fontWeight: FontWeight.w400,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
                 ],

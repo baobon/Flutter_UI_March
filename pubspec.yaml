@@ -23,6 +23,15 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.7.0
+
+  #0203
+  scrollable_bottom_sheet: ^0.2.1
+  flutter_circular_slider: ^2.5.0
+  flutter_range_slider: "^1.4.0"
+
+
+
 
 dev_dependencies:
   flutter_test:
@@ -42,6 +51,11 @@ flutter:
   assets:
     - assets/0203/tesla1.jpg
     - assets/0203/tesla2.jpg
+    - assets/0203/listimage.jpg
+    - assets/0203/dryicon.png
+    - assets/0203/fanicon.png
+    - assets/0203/programicon.png
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see

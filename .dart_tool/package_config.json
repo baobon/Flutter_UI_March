@@ -62,10 +62,28 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "flutter_circular_slider",
+      "rootUri": "file:///home/baobon/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_circular_slider-2.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "flutter_range_slider",
+      "rootUri": "file:///home/baobon/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_range_slider-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "1.19"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///home/baobon/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.2"
+    },
+    {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///home/baobon/flutter/.pub-cache/hosted/pub.dartlang.org/font_awesome_flutter-8.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "image",
@@ -106,6 +124,12 @@
     {
       "name": "quiver",
       "rootUri": "file:///home/baobon/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "scrollable_bottom_sheet",
+      "rootUri": "file:///home/baobon/flutter/.pub-cache/hosted/pub.dartlang.org/scrollable_bottom_sheet-0.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -176,7 +200,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-03-02T14:10:55.976855Z",
+  "generated": "2020-03-07T14:44:57.060997Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }
