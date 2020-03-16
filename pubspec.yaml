@@ -72,6 +72,7 @@ flutter:
     - assets/0703/lampon.png
     - assets/0703/lampoff.png
     - assets/0703/tittleicon.png
+    - assets/0703/coffee.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
